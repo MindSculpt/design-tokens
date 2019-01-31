@@ -1,0 +1,5 @@
+{
+  "button_small_default": "'f7 link dim br2 ph3 pv2 ba b--blue dib white bg-blue pointer'",
+  "button_default": "'f6 link dim br2 ph3 pv2 ba b--blue dib white bg-blue formular pointer'",
+  "button_large_default": "'f5 link dim br2 ph4 pv3 ba b--blue dib white bg-blue formular pointer'"
+}

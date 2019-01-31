@@ -1,0 +1,17 @@
+{
+  "font_family_serif": "'Roboto'",
+  "font_family_sans_serif": "'Roboto Mono'",
+
+  "typography_headline": "'f-headline lh-solid roboto'",
+  "typography_subheadline": "'f-subheadline lh-title roboto'",
+
+  "typography_f1": "'f1 lh-title roboto normal'",
+  "typography_f2": "'f2 lh-copy roboto normal'",
+  "typography_f3": "'f3 lh-copy roboto normal'",
+  "typography_f4": "'f4 lh-copy roboto normal'",
+  "typography_f5": "'f5 lh-copy roboto'",
+  "typography_f6": "'f6 lh-copy roboto normal'",
+  "typography_button": "'f5 lh-copy roboto normal'",
+  
+  "link_default": "'link dim blue'"
+}
