@@ -52,7 +52,8 @@ paths = {
 
   styles: {
     src: './src/scss/**/*',
-    dest: './build/css/'
+    dest: './build/css/',
+    watchPath: './src/scss/*.scss'
   },
 
   html: {
@@ -110,7 +111,7 @@ gulp.task('serve', () => {
 
 
 	// watch source files
-  gulp.watch(paths.styles.src, ['scss']);
+  gulp.watch(paths.styles.watchPath, ['scss']);
   
   gulp.watch(paths.html.watchPath, ['html']).on('change', browserSync.reload);
   gulp.watch(paths.html.src, ['html', browserSync.reload]);

@@ -4,12 +4,14 @@
 
 // (Import order matters here!)
 
-// Import design tokens
+// Import design tokens first
 @import 'design-tokens';
 
+// Import project-specific variables
+@import 'variables';
 
-// Project-specific vars
+// Import framework overrides in a custom file for whatever framework you're using
 @import 'tachyons-custom';   
 
-// Import tachyons
+// Import tachyons scss
 @import '../../node_modules/tachyons-sass/tachyons.scss';
